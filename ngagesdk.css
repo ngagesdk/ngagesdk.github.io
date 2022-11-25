@@ -1,0 +1,77 @@
+.caption {
+    margin-top: 0.2em;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery {
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-common {
+    float: left;
+    padding: 0.5ex;
+}
+
+.gallery-2x1 {
+    float: left;
+    width: 50.00%;
+    padding: 0.5ex;
+}
+
+.gallery-3x1 {
+    float: left;
+    width: 33.33%;
+    padding: 0.5ex;
+}
+
+.gallery-4x1 {
+    float: left;
+    width: 25.00%;
+    padding: 0.5ex;
+}
+
+.gallery-5x1 {
+    float: left;
+    width: 20.00%;
+    padding: 0.5ex;
+}
+
+.gallery-6x1 {
+    float: left;
+    width: 16.66%;
+    padding: 0.5ex;
+}
+
+.gallery-12x1 {
+    float: left;
+    width: 8.33%;
+    padding: 0.5ex;
+}
+
+.free-standing {
+    clear: both;
+    padding-top: 1em;
+}
+
+.media-container {
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.video-container-360p {
+    max-width: 600px;
+    max-height: 360px;
+    margin-bottom: 3em;
+    margin-top: 1.5em;
+}

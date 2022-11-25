@@ -1,3 +1,0 @@
-- [N-Gage SDK.](/)
-- [GitHub site](https://github.com/ngagesdk)
-- [Legal information](legal-information.md)
