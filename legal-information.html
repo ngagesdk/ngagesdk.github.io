@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="An ecosystem for developing (or porting existing) games for the Nokia N-Gage using modern tools such as Visual Studio 2022 and CMake.">
+    <meta property="og:type" content="blog">
+    <meta property="og:url" content="https://ngagesdk.github.io">
+    <meta property="og:image" content="https://ngagesdk.github.io/img/ogp-1200x1200.png">
+
+    <title>N-Gage SDK.</title>
+    <link rel="stylesheet" href="/style.min.css">
+    <link rel="stylesheet" href="/ngagesdk.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2">
+    <link rel="manifest" href="/site.webmanifest?v=2">
+  </head>
+
+  <body>
+    <h1>
+      <img src="img/logo.png" alt="N-Gage SDK.">
+    </h1>
+
+    <p class="author">Michael Fitzmayer <br> November 25th, 2022</p>
+
+    <h2>Legal information</h2>
+
+    <p>
+      Verantwortlich für den Inhalt dieser Website ist (gemäß § 5
+      TMG)<label for="sn-1" class="sidenote-toggle
+      sidenote-number"></label><input type="checkbox" id="sn-1"
+      class="sidenote-toggle" /><span class="sidenote">German law requires this.</span>:
+    </p>
+
+    <blockquote>
+      Michael Fitzmayer<br/>
+      Ruitstr. 25<br/>
+      71691 Freiberg am Neckar<br/>
+      <b>Tel</b>.: +49 (0) 176 / 926 30 451<br/>
+      <b>E-Mail</b>: mail at michael minus fitzmayer punkt de (<a href="https://pgp.mit.edu/pks/lookup?op=get&search=0x2D6159AF6F65F9E1">PGP Public Key</a>)
+    </blockquote>
+
+    <p>
+      Die Nutzung obiger Daten zum Zwecke der Werbung, statistischer
+      Erhebung oder generell gewerbsmäßig ausgerichteter Tätigkeit ist
+      untersagt.
+    </p>
+
+    <p>
+      Alle Inhalte dieser Seite unterliegen, sofern nicht anders angegeben, dem Urheberrecht. Alle Rechte sind dem Autor vorbehalten.
+    </p>
+
+    <h2>Datenschutzerklärung</h2>
+    <h3>Hosting</h3>
+
+    <p>
+        Mein Hoster erhebt in sog. Logfiles folgende Daten, die Ihr
+        Browser übermittelt:
+    </p>
+
+    <p>
+        IP-Adresse, die Adresse der vorher besuchten Website (Referer
+        Anfrage-Header), Datum und Uhrzeit der Anfrage,
+        Zeitzonendifferenz zur Greenwich Mean Time, Inhalt der
+        Anforderung, HTTP-Statuscode, übertragene Datenmenge, Website,
+        von der die Anforderung kommt und Informationen zu Browser und
+        Betriebssystem.
+    </p>
+
+    <p>
+        Das ist erforderlich, um meine Website anzuzeigen und die
+        Stabilität und Sicherheit zu gewährleisten.  Dies entspricht
+        meinem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1
+        lit. f DSGVO.
+    </p>
+
+    <p>
+        Es erfolgt kein Tracking und ich habe auf diese Daten keinen
+        direkten Zugriff, sondern erhalten lediglich eine anonymisierte,
+        statistische Zusammenfassung.  Diese beinhaltet die Adresse der
+        vorher besuchten Seite, die Häufigkeit der jeweils aufgerufenen
+        Seiten und die Anzahl eindeutiger Besucher.  Diese Daten führe
+        ich nicht mit anderen Daten zusammen.
+    </p>
+
+    <p>
+        Ich setze für die Zurverfügungstellung meiner Website folgenden
+        Hoster ein:
+    </p>
+
+    <blockquote>
+        GitHub Inc.<br />
+        88 Colin P Kelly Jr St<br />
+        San Francisco, CA 94107<br />
+        United States
+    </blockquote>
+
+    <p>
+        Dieser ist Empfänger Ihrer personenbezogenen Daten.  Dies
+        entspricht meinem berechtigten Interesse im Sinne des Art. 6
+        Abs. 1 S. 1 lit. f DSGVO, selbst keinen Server in meinen
+        Räumlichkeiten vorhalten zu müssen.  Serverstandort ist USA.
+    </p>
+
+    <p>
+        Weitere Informationen zu Widerspruchs- und
+        Beseitigungsmöglichkeiten gegenüber GitHub finden Sie
+        unter:  <a
+        href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement#github-pages">GitHub
+        Privacy Statement</a>.
+    </p>
+
+    <p>
+        Sie haben das Recht der Verarbeitung zu widersprechen.  Ob der
+        Widerspruch erfolgreich ist, ist im Rahmen einer
+        Interessenabwägung zu ermitteln.
+    </p>
+
+    <p>
+        Die Daten werden gelöscht, sobald der Zweck der Verarbeitung
+        entfällt.
+    </p>
+
+    <p>
+        Die Verarbeitung der unter diesem Abschnitt angegebenen Daten
+        ist weder gesetzlich noch vertraglich vorgeschrieben.  Die
+        Funktionsfähigkeit der Website ist ohne die Verarbeitung nicht
+        gewährleistet.
+    </p>
+
+    <p>
+        GitHub hat Compliance-Maßnahmen für internationale
+        Datenübermittlungen umgesetzt.  Diese gelten für alle weltweiten
+        Aktivitäten, bei denen GitHub personenbezogene Daten von
+        natürlichen Personen in der EU verarbeitet.  Diese Maßnahmen
+        basieren auf den EU-Standardvertragsklauseln (SCCs).  Weitere
+        Informationen finden Sie unter:  <a
+        href="https://docs.github.com/en/site-policy/privacy-policies/github-data-protection-agreement">GitHub
+        Data Protection Agreement</a>.
+    </p>
+
+    <p>
+      <a href="/">Zurück</a>
+    </p>
+  </body>
+</html>
