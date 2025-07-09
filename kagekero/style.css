@@ -8,19 +8,26 @@ html, body {
 }
 
 .emscripten_border {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
 }
 
 canvas.emscripten {
+    display: block;
     max-width: 100%;
     max-height: 100%;
-    display: block;
+    min-width: 640px;
+    min-height: 480px;
 }
 
 .emscripten_controls {
+    display: block;
     text-align: center;
     margin-top: 20px;
 }
