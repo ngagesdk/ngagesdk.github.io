@@ -11,7 +11,9 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    /* Make the border fill the viewport so flex centering also works vertically */
+    height: 100%;
+    width: 100%;
 }
 
 canvas.emscripten {
